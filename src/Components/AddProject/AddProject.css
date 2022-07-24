@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-project{
+    width: 35rem;
+    height: 30rem;
+    /* background-color: rgb(206, 250, 234); */
+    border-radius: 1rem;
+}
+.add-project-details{
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+}
+.add-project-details>h3,.add-project-details>p{
+    color: rgb(169, 51, 51);
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+.add-project-details>p{
+    position: relative;
+    top: 4rem;
+    left: 1rem;
+    z-index: 1;
+    font-size: large;
+}
+.add-project-details>input,.add-project-details>textarea{
+    width: 27rem;
+    border: none;
+    border-radius: 0 0.8rem 0.8rem;
+    position: relative;
+    top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.7rem;
+    background-color: rgb(241, 236, 236);
+}
+.add-project-details>.skill-input{
+   position: relative;
+   left: -1.5rem;
+}
+.add-project-details>textarea{
+    overflow: hidden;
+}
+.add-project-details>button{
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+    z-index: 1;
+    color: rgb(169, 51, 51);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: larger;
+    box-shadow: 0 2px 4px rgb(0 0 0 /10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.add-project>button{
+    position: relative;
+    top: 0rem;
+    left: 12rem;
+    border: none;
+    height: 2.8rem;
+    border-radius: 0.8rem;
+    width: 8rem;
+    background-color: rgb(169, 51, 51);
+    color: #fff;
+}
+input.skill-input{
+    padding-left: 4rem;
+}
+

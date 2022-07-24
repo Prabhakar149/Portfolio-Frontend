@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.navbar-div{
+    width: 15rem;
+    height: 32rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.navbar-div>button{
+    border: none;
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    padding: 1rem;
+    background: none;
+    border-radius: 1px;
+}
+.navbar-div>button:hover{
+    color: rgb(169, 51, 51);
+}
+.sign-out{
+    margin-top: 12rem;
+    /* padding-top: 12rem; */
+}
+i{
+    padding-right: 1rem;
+}
+
+.skill-button:focus,.skill-button:active{
+    color: rgb(169, 51, 51);
+}
+
+
+

@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    width: 70rem;
+    height: 40rem;
+    background-color: rgb(241, 236, 236);
+    border-radius: 1rem;
+}
+
+.profile-div{
+    width: 45rem;
+    height: 32rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+    left: 1rem;
+    top:1rem;
+}
+.shortName{
+    width: 6rem;
+    height: 6rem;
+    background-color:  rgb(169, 51, 51);
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.shortName>h3{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.fullName{
+    position: relative;
+    margin-top: -4.5rem;
+    padding-left: 15rem;
+}
+.fullName>h2{
+    font-weight: bold;
+}
+.fullName>p{
+    color: rgb(169, 51, 51);
+    padding-top: 1rem;
+}
+.myDetails{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+.myDetails>p{
+    color: rgb(169, 51, 51);
+    padding-top: 2rem;
+}
+.myDetails>input,.myDetails>textarea{
+    width: 20rem;
+    border: none;
+    border-radius: 0 0.8rem 0.8rem;
+    position: relative;
+    top: -0.5rem;
+    background-color: rgb(241, 236, 236);
+}
+.myDetails>textarea{
+    height: 7rem;
+}
+.myDetails>::placeholder{
+    padding: 1rem;
+}
+.profile-div>button{
+    position: relative;
+    top: 2rem;
+    left: 15rem;
+    border: none;
+    height: 2.8rem;
+    border-radius: 0.8rem;
+    width: 8rem;
+    background-color: rgb(169, 51, 51);
+    color: #fff;
+}
+
+

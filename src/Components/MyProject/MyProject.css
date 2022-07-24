@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    width: 70rem;
+    height: 40rem;
+    background-color: rgb(241, 236, 236);
+    border-radius: 1rem;
+}
+
+.myProject-div{
+    width: 45rem;
+    height: 32rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: relative;
+    left: 1rem;
+    top:1rem;
+    overflow: auto;
+}
+
+.myProject-div>input{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    border: none;
+    background: rgb(241, 236, 236);
+    height: 3rem;
+    width: 20rem;
+    border-radius: 1rem;
+    padding-left: 4rem;
+}
+.myProject-div>input::placeholder{
+    font-size: 0.8rem;
+    padding-left: 3rem;
+}
+.myProject-div>i{
+    position: relative;
+    top: 2.1rem;
+    left: 4.5rem;
+    z-index: 1;
+}
+.myProject-div>button{
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+    border: none;
+    height: 3rem;
+    border-radius: 0.8rem;
+    width: 10rem;
+    background-color: rgb(169, 51, 51);
+    color: #fff;
+}
+.myProjects{
+    position: relative;
+    top: 2rem;
+    left: 2.6rem;
+    background: rgb(241, 236, 236);
+    min-height: 10rem;
+    width: 39rem;
+    border-radius:0 1rem 1rem;
+    margin: 0.6rem;
+
+}
+.myProjectDetails{
+    position: relative;
+    top: 1.5rem;
+    left: 1.3rem;
+}
+.myProjects>h1{
+    padding-bottom: 0rem;
+}
+.myProjects>p{
+    padding-top: 0rem;
+    top: 1rem;
+}
+.myProjects>div{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    top: 2rem;
+    left: 1rem;
+    border: 1px solid rgb(169, 51, 51);
+    border-radius: 1rem;
+    background: #fff; 
+    height: 1.5rem; 
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+}
+.myProjectDetails>p{
+    color: rgb(169, 51, 51);
+    padding: 1.5rem 1rem;
+    font-size: small;
+}
