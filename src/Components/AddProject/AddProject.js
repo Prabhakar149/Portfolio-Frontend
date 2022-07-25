@@ -22,9 +22,12 @@ function AddProject(props) {
     }
     
     function addSkills(){
-        newProjectSkills.push(newSkill);
-        setNewSkill("");
-        // console.log(newProjectSkills)
+         if(newSkill[0]===" "){
+            setNewSkill("");
+         }else{
+            newProjectSkills.push(newSkill);
+            setNewSkill("");
+         } 
     }
 
     const myNewProjects = {
