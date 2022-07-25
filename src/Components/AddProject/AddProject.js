@@ -33,6 +33,9 @@ function AddProject(props) {
         projectSkills:newProjectSkills
     }
     const userNewProjects = [userId,myNewProjects];
+    if(newProjectSkills.includes("")){
+        newProjectSkills.pop();
+    }
 
     function handleClick(){
         if(projectTitle && description && newProjectSkills.length>0){
